@@ -1,3 +1,7 @@
+//----your overwrites: place files with variable overwrites here
+@import "_your-themes/variables";
+
+// ---- Main Theme
 // 1 - Globals
 @import "1-settings/globals";
 
@@ -43,9 +47,7 @@
 @import "7-utilities/sticky";
 @import "7-utilities/js-utilities";
 @import "7-utilities/shame";
-@import "7-utilities/your-theme";
 @import "7-utilities/theme-default";
 
-/* Add your file here, if you want to make some deeper layout changes */
-
-/* @import '7-utilities/your-layout'; */
+// ---- Apply your own deeper layout changes
+@import "_your-themes/your-theme";
