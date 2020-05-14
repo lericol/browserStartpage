@@ -1,10 +1,10 @@
 // ----- Setup -----
 $document-font-family: -apple-system, sans-serif !default;
 $body-background-color: #fdfdfd !default;
-$body-color: #333 !default;
+$body-color: #1a3245 !default;
 $box-shadow-default: 0 1px 1px rgba(0, 0, 0, .2) !default;
 $box-shadow-heavy: 0 2px 4px rgba(0, 0, 0, .2) !default;
-$brand-color: #007acc !default;
+$brand-color: #1a3245 !default;
 
 $wallpaper-filter: blur(.1px) !default;
 
@@ -20,12 +20,12 @@ $button-background-color: transparent !default;
 $collapse-border: 1px solid $base-border-color-hover !default;
 
 $header-background-color: $body-background-color !default;
-$header-link-color: $body-color !default;
+$header-link-color: $brand-color !default;
 $header-link-active-bg: $brand-color !default;
-$header-link-active-color: #fff !default;
+$header-link-active-color: $body-background-color !default;
 
 $main-link-border-color: $base-border-color !default;
-$main-link-background-color: #f5f5f5 !default;
+$main-link-background-color: #fdfdfd !default;
 $main-link-background-image: linear-gradient(to bottom,rgba($body-background-color, .9),rgba($main-link-background-color, .97)) !default;
 $main-link-background-image-hover: linear-gradient(to top,rgba($body-background-color, .9),rgba($main-link-background-color, .97)) !default;
 $main-link-active-border-color: $base-border-color-hover !default;
@@ -37,7 +37,7 @@ $main-link-active-description-color: $header-link-active-color !default;
 $tile-button-padding: $base-spacing-size/2 !default;
 $tile-button-color: inherit;
 
-$backdrop-color: rgba(8, 34, 63, .6) !default;
+$backdrop-color: rgba($brand-color, .6) !default;
 $background-blur-setting: 1px;
 
 $modal-border: none !default;
